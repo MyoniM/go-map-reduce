@@ -1,8 +1,7 @@
 ## go-map-reduce 
 
 This is to simulate a basic Map Reduce procedure on a distributed system.
-```host1``` is a machine with its own request latencies log 
-```host2``` is also a machine with its own request latencies log 
+```host1``` and ```host2``` are machines with their request latencies log.
 The final result of the Map Reduce will be a file with count of latencies above one second and below one second.
 
 ```go
